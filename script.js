@@ -7,7 +7,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     
         enunciado: "o novo ensino médio é uma reforma educacional com o aumento da carga horaria de 800h para 1000h. Também foi adicionado além das disciplinas obrigatórias como portuguẽs e matemática, os estudantes também podem escolher a trilha de aprendizagem que desejam seguir a partir do segundo ano, por meio dos itinerários formativos. O objetivo é modernizar a educação e adaptar os jovens para o mercado de trabalho.Vocẽ acha que essas mudanças são benéficas ou maléficas para os estudantes ?"
-        alternativas: 
+        alternativas: []
             {
                 texto: "Isso é benéfico. Visto que o estudante poderá escolher em que área quer se aprofundar e então, se preparar melhor para o mercado de trabalho.",
         },
@@ -22,11 +22,11 @@ const perguntas = [
         alternativas: [
             
                 texto: "Ajuda. Visto que é uma preparaçao para o mercado de trabalho , pois já terá um, maior conhecimento na aréa que irá futuramente trabalhar."
-        {
+             {
                 texto: "Atrapalha. Logo que gera uma pressão no estudante que ao escolher sua carreira podem mudar de idéia e então ter perdido tempo de estudo.",
-            }
+            },
         ]
-    },
+    }
 {
         enunciado: "o novo ensino médio e o ENEM: apesarde ter muitas possibilidades de escolha dos itinerários, uma preocupação copm relação a preparação dos alunos para o Exame Nacional do Ensino Médio, que atualmente é a maior porta de entrada para o ensino superior. Como você classifíca esse impacto?",
         alternativas: [
@@ -36,22 +36,21 @@ const perguntas = [
             {
                 texto: "Negativo. Porque gera uma lacuna onde deixa a desejar muito em alguns aspectos, o que será prejudicial ao estudantes.",
                 
-            }
+            },
         ]
     },
     {  
         enunciado: "As plataformas: Uma das principais mudanças do novo ensino médio é a implementação de plataformas digitais que vizam melhorar a aprendizagem. porém nem tudos tem um bom acesso a tecnologia. Você considera as plataformas um bom método de ensino ?",
         alternativas: [
-            {
+            
                 texto: "Sim. Os alunos passam a ter mais possibilidades de acesso a educação forado ambiente escolar.",
                
-            },
             {
                 texto: "Não. Já que nem todos tem o mesmo acesso a internet alguns alunos podem ser prejudicados, além de que o desempenho cai sem o auxilio de um professor para orientar os alunos!",
                
-            }
+            },
         ]
-    },
+    }
 
 
 let atual = 0;
