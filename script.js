@@ -6,16 +6,19 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     
-        enunciado: "o novo ensino médio é uma reforma educacional com o aumento da carga horaria de 800h para 1000h. Também foi adicionado além das disciplinas obrigatórias como portuguẽs e matemática, os estudantes também podem escolher a trilha de aprendizagem que desejam seguir a partir do segundo ano, por meio dos itinerários formativos. O objetivo é modernizar a educação e adaptar os jovens para o mercado de trabalho.Vocẽ acha que essas mudanças são benéficas ou maléficas para os estudantes ?"
-        alternativas: []
-            {
-                texto: "Isso é benéfico. Visto que o estudante poderá escolher em que área quer se aprofundar e então, se preparar melhor para o mercado de trabalho.",
-        },
-            {
-                texto: "Isso é maléfico. Logo que o curriculo é muito rígido e não flexivel, então pode se arrepender de qual trilha resolvel escolher."",
-            },
-        ]
+   // código omitido
+enunciado:"o novo ensino médio é uma reforma educacional com o aumento da carga horaria de 800h para 1000h. Também foi adicionado além das disciplinas obrigatórias como portuguẽs e matemática, os estudantes também podem escolher a trilha de aprendizagem que desejam seguir a partir do segundo ano, por meio dos itinerários formativos. O objetivo é modernizar a educação e adaptar os jovens para o mercado de trabalho.Vocẽ acha que essas mudanças são benéficas ou maléficas para os estudantes ?"
+  
+{
+    texto: "Isso é benéfico. Visto que o estudante poderá escolher em que área quer se aprofundar e então, se preparar melhor para o mercado de trabalho.",
+    },
+        
+     {
+    texto: "Isso é maléfico. Logo que o curriculo é muito rígido e não flexivel, então pode se arrepender de qual trilha resolvel escolher."
+     }
 
+]
+// código omitido
 {
             
         enunciado: "O estudante terá maior possibilidade de escolha: A idéia era trazer uma maior variedade de opções porém,é necessario uma maior autoconciencia já no primeiro ano do ensino médio tendo em mente qual profissão deseja seguir para não errar na escolha. Você acha que um maior leque de possibilidades ajuda ou atrapalha a escolha do estudante ?"
